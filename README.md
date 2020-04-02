@@ -1,6 +1,17 @@
-# Clover-Dell-XPS-9360-Catalina-10.15.3
+# Clover-Dell-XPS-9360-Catalina-10.15
 
 Dell XPS 9360
+
+Status : <br/>
+- Clover support 10.15.3 (Clover need to be update to latest version for support 10.15.4)<br/>
+- Opencore support 10.15.4 <br/>
+
+How to migrate from Clover to Opencore in easy way : <br/>
+1.Delete all folder inside EFI partition.<br/>
+2.Copy and Paste my EFI folder in this repository into your EFI parition.<br/>
+3.Reboot.<br/>
+
+note : clear Clover NVRAM before migrate to Opencore.<br/>
 
 Intel i7-7560U<br/>
 16GB RAM<br/>
