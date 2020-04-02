@@ -1,4 +1,4 @@
-# Clover-Dell-XPS-9360-Catalina-10.15
+# OSX-Dell-XPS-9360-Catalina-10.15
 
 Dell XPS 9360
 
