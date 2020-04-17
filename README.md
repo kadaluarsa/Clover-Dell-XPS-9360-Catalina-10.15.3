@@ -9,9 +9,9 @@ Status : <br/>
 How to migrate from Clover to Opencore in easy way : <br/>
 1.Delete all folder inside EFI partition.<br/>
 2.Copy and Paste my EFI folder in this repository into your EFI parition.<br/>
-![inside my EFI volume]
-(https://raw.githubusercontent.com/kadaluarsa/OSX-XPS-9360-Catalina/master/asset/mypartition.png)
+<image src='https://raw.githubusercontent.com/kadaluarsa/OSX-XPS-9360-Catalina/master/asset/mypartition.png'/>
 <br/>
+3.Make sure only EFI folder inside EFI parition.<br/>
 3.Reboot.<br/>
 
 note : clear Clover NVRAM before migrate to Opencore.<br/>
