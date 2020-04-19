@@ -16,14 +16,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>CPU</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-CPU.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Plugin-Type</string>
 				<key>Enabled</key>
 				<true/>
@@ -61,22 +53,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-BRT6.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Ports configuration for USBInjectAll.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-UIAC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Ports configuration for USBInjectAll.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -555,51 +531,6 @@
 				<key>model</key>
 				<string>Sunrise Point-LP PCI Express Root Port #1</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/0,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/1,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/2,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/2,0/0,0</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>DSL6340 USB 3.1 Controller [Alpine Ridge]</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -616,7 +547,7 @@
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
-				<string>BCM4352 802.11ac Wireless Network Adapter</string>
+				<string>BCM4360 802.11ac Wireless Network Adapter</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
 			<dict>
@@ -634,7 +565,7 @@
 				<key>device_type</key>
 				<string>Non-Volatile memory controller</string>
 				<key>model</key>
-				<string>WD Black 2018/PC SN720 NVMe SSD</string>
+				<string>NVMe SSD Controller SM961/PM961</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
 			<dict>
@@ -643,7 +574,7 @@
 				<key>device_type</key>
 				<string>ISA bridge</string>
 				<key>model</key>
-				<string>Wildcat Point-LP LPC Controller</string>
+				<string>Sunrise Point LPC Controller/eSPI Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
 			<dict>
@@ -680,39 +611,40 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AAAmWQ==
+				AgAmWQ==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
 				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con2-enable</key>
+				<key>framebuffer-con0-alldata</key>
+				<data>
+				AAASAAIAAACYAAAAAQYSAAAIAACHAQAAAgQSAAAEAACH
+				AQAA
+				</data>
+				<key>framebuffer-con0-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
 				<key>framebuffer-flags</key>
 				<data>
-				CwsAAA==
+				CAvjAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAgAg==
-				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
-				AAAAgA==
+				AAAAwA==
 				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
@@ -742,6 +674,16 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>VoodooTSCSync.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooTSCSync</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string>Video card</string>
@@ -764,16 +706,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>HWPEnabler.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/HWPEnabler</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
 				<string>Realtek HDA</string>
@@ -790,7 +722,7 @@
 				<key>Comment</key>
 				<string>CPU Frequency Settings</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CPUFriend</string>
 				<key>PlistPath</key>
@@ -802,17 +734,7 @@
 				<key>Comment</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
-				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -887,18 +809,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooGPIO</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>VoodooI2CUPDDEngine.kext</string>
-				<key>Comment</key>
-				<string>I2C Human Interface Device support</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CUPDDEngine</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1246,18 +1156,18 @@
 		<key>DataHub</key>
 		<dict>
 			<key>BoardProduct</key>
-			<string>Mac-827FB448E656EC26</string>
+			<string>Mac-B4831CEBD52A0C4C</string>
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TR09QHV29</string>
+			<string>C02VCLYNHV29</string>
 			<key>SystemUUID</key>
-			<string>35B9CEA1-B25C-4D56-81FA-CC7148DC89A7</string>
+			<string>4E688EAA-30BC-453A-985C-1A48C8AFF72A</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C02739902CDHWVP1M</string>
+			<string>C02736310QXHWVP1F</string>
 			<key>ROM</key>
 			<data>
 			yv66vt6tvu8=
@@ -1267,9 +1177,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TR09QHV29</string>
+			<string>C02VCLYNHV29</string>
 			<key>SystemUUID</key>
-			<string>B4D872B4-835D-4D3B-83C0-D262B3724CA5</string>
+			<string>4E688EAA-30BC-453A-985C-1A48C8AFF72A</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1280,7 +1190,7 @@
 			<key>FirmwareFeaturesMask</key>
 			<string>3FFF1FFF 00000000</string>
 			<key>MLB</key>
-			<string>C02739902CDHWVP1M</string>
+			<string>C02736310QXHWVP1F</string>
 			<key>ROM</key>
 			<data>
 			yv66vt6tvu8=
@@ -1301,9 +1211,9 @@
 			<key>BoardManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>BoardProduct</key>
-			<string>Mac-827FB448E656EC26</string>
+			<string>Mac-B4831CEBD52A0C4C</string>
 			<key>BoardSerialNumber</key>
-			<string>C02806303QXHWVP1F</string>
+			<string>C02736310QXHWVP1F</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1313,11 +1223,11 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02739902CDHWVP1M</string>
+			<string>C02736310QXHWVP1F</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-827FB448E656EC26</string>
+			<string>Mac-B4831CEBD52A0C4C</string>
 			<key>FirmwareFeatures</key>
 			<string>76E10FFC 00000000</string>
 			<key>FirmwareFeaturesMask</key>
@@ -1335,11 +1245,11 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSKUNumber</key>
-			<string>Mac-827FB448E656EC26</string>
+			<string>Mac-B4831CEBD52A0C4C</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VGCYNHV29</string>
+			<string>C02VCLYNHV29</string>
 			<key>SystemUUID</key>
-			<string>B4D872B4-835D-4D3B-83C0-D262B3724CA5</string>
+			<string>4E688EAA-30BC-453A-985C-1A48C8AFF72A</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>

@@ -158,7 +158,7 @@
 			<false/>
 		</dict>
 		<key>DisableASPM</key>
-		<false/>
+		<true/>
 		<key>FixHeaders</key>
 		<true/>
 		<key>RenameDevices</key>
@@ -206,8 +206,6 @@
 		<string>darkwake=4</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>Fast</key>
-		<true/>
 		<key>HibernationFixup</key>
 		<false/>
 		<key>NeverHibernate</key>
@@ -218,6 +216,8 @@
 		<false/>
 		<key>SkipHibernateTimeout</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>10</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -307,51 +307,6 @@
 				<key>model</key>
 				<string>Sunrise Point-LP PCI Express Root Port #1</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/0,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/1,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/2,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0/2,0/0,0</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>DSL6340 USB 3.1 Controller [Alpine Ridge]</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -368,7 +323,7 @@
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
-				<string>BCM4352 802.11ac Wireless Network Adapter</string>
+				<string>BCM4360 802.11ac Wireless Network Adapter</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
 			<dict>
@@ -386,7 +341,7 @@
 				<key>device_type</key>
 				<string>Non-Volatile memory controller</string>
 				<key>model</key>
-				<string>WD Black 2018/PC SN720 NVMe SSD</string>
+				<string>NVMe SSD Controller SM961/PM961</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
 			<dict>
@@ -395,7 +350,7 @@
 				<key>device_type</key>
 				<string>ISA bridge</string>
 				<key>model</key>
-				<string>Wildcat Point-LP LPC Controller</string>
+				<string>Sunrise Point LPC Controller/eSPI Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
 			<dict>
@@ -442,12 +397,10 @@
 				<data>AAASAAIAAACYAAAAAQYSAAAIAACHAQAAAgQSAAAEAACHAQAA</data>
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AADAAA==</data>
+				<key>framebuffer-flags</key>
+				<data>CAvjAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAABQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAwA==</data>
 			</dict>
@@ -556,7 +509,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
+		<data>fomuRKHz</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -611,6 +564,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>54E11BD8-F93F-5DEF-97EF-FC1D8F2FA103</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
