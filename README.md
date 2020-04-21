@@ -24,5 +24,9 @@ Wifi replace with BCM943602CS<br/>
 Samsung SM961 NVMe 512 sector better replace with NVMe 4k sector<br/>
 Touchscreen (though it works out of the box if enabled)<br/><br/>
 Optional : <br/>
-Undervolt with voltageshift : <b>sudo ./voltageshift buildlaunchd  -90 -50 -90 0 0 0 0 0 0 0 20</b><br/>
+Undervolt with voltageshift : <b>sudo ./voltageshift buildlaunchd -110 -110 -110 0 0 0 1 15 31 20</b><br/>
+- reduce CPU,CPU cache,GPU to -110v (make more stable and reduce coilwhine when play 4K video)<br/> 
+- enable turbo mode 1<br/>
+- set TDP to 15 and turbo TDP to 31(fix TDP based on intel cpu information because default value is 17 and 33)<br/>
+- repeat autojob every 20 minute<br/>
 Download voltageshift here : https://drive.google.com/file/d/1v6woypx2APiejCVwaF9zwQhBHyICAHPY/view?usp=sharing<br/>
