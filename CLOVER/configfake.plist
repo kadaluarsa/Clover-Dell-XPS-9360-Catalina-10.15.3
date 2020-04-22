@@ -33,9 +33,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>T1NJRA==</data>
+					<data>
+					T1NJRA==
+					</data>
 					<key>Replace</key>
-					<data>WFNJRA==</data>
+					<data>
+					WFNJRA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -43,9 +47,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -53,9 +61,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>FCBCUlQ2Ag==</data>
+					<data>
+					FCBCUlQ2Ag==
+					</data>
 					<key>Replace</key>
-					<data>FCBCUlRYAg==</data>
+					<data>
+					FCBCUlRYAg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -63,9 +75,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R1BSVwI=</data>
+					<data>
+					R1BSVwI=
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwI=</data>
+					<data>
+					WFBSVwI=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -73,9 +89,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUNEVg==</data>
+					<data>
+					RUNEVg==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -83,9 +103,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BUUwE=</data>
+					<data>
+					X1BUUwE=
+					</data>
 					<key>Replace</key>
-					<data>WlBUUwE=</data>
+					<data>
+					WlBUUwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -93,9 +117,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1dBSwE=</data>
+					<data>
+					X1dBSwE=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwE=</data>
+					<data>
+					WldBSwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -103,9 +131,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>FB1fU1RBAKAJk1M=</data>
+					<data>
+					FB1fU1RBAKAJk1M=
+					</data>
 					<key>Replace</key>
-					<data>FB1YU1RBAKAJk1M=</data>
+					<data>
+					FB1YU1RBAKAJk1M=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -113,11 +145,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0NSUw==</data>
+					<data>
+					X0NSUw==
+					</data>
 					<key>Replace</key>
-					<data>WENSUw==</data>
+					<data>
+					WENSUw==
+					</data>
 					<key>TgtBridge</key>
-					<data>VFBEMQ==</data>
+					<data>
+					VFBEMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -125,11 +163,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0RTTQ==</data>
+					<data>
+					X0RTTQ==
+					</data>
 					<key>Replace</key>
-					<data>WERTTQ==</data>
+					<data>
+					WERTTQ==
+					</data>
 					<key>TgtBridge</key>
-					<data>VFBEMQ==</data>
+					<data>
+					VFBEMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -137,11 +181,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1JNVg==</data>
+					<data>
+					X1JNVg==
+					</data>
 					<key>Replace</key>
-					<data>WFJNVg==</data>
+					<data>
+					WFJNVg==
+					</data>
 					<key>TgtBridge</key>
-					<data>UlAwMQ==</data>
+					<data>
+					UlAwMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -149,9 +199,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>pABYVEJU</data>
+					<data>
+					pABYVEJU
+					</data>
 					<key>Replace</key>
-					<data>pABZVEJU</data>
+					<data>
+					pABZVEJU
+					</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -168,8 +222,6 @@
 		</dict>
 		<key>SSDT</key>
 		<dict>
-			<key>DoubleFirstState</key>
-			<false/>
 			<key>DropOem</key>
 			<false/>
 			<key>Generate</key>
@@ -206,7 +258,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>darkwake=4 lilucpu=9</string>
+		<string>darkwake=4</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -231,16 +283,8 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>BusSpeedkHz</key>
-		<integer>100000</integer>
-		<key>FrequencyMHz</key>
-		<integer>2400</integer>
 		<key>HWPEnable</key>
-		<false/>
-		<key>QPI</key>
-		<integer>4000</integer>
-		<key>TDP</key>
-		<integer>15</integer>
+		<true/>
 		<key>Type</key>
 		<string>0x0705</string>
 		<key>UseARTFrequency</key>
@@ -381,7 +425,9 @@
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>
-				<data>DQAAAA==</data>
+				<data>
+				DQAAAA==
+				</data>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
@@ -397,23 +443,50 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AgAmWQ==</data>
+				<data>
+				AgAmWQ==
+				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
+				<key>force-online</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>force-online-framebuffers</key>
+				<data>
+				AAAAAAAAAAE=
+				</data>
 				<key>framebuffer-con0-alldata</key>
-				<data>AAASAAIAAACYAAAAAQYSAAAIAACHAQAAAgQSAAAEAACHAQAA</data>
+				<data>
+				AAASAAIAAACYAAAAAQYSAAAIAACHAQAAAgQSAAAEAACH
+				AQAA
+				</data>
 				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-flags</key>
+				<data>
+				CwfjAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAwA==</data>
+				<data>
+				AAAAwA==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
 			<dict>
@@ -520,7 +593,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>fomuRKHz</data>
+		<data>
+		fomuRKHz
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -578,7 +653,7 @@
 		<key>CustomUUID</key>
 		<string>54E11BD8-F93F-5DEF-97EF-FC1D8F2FA103</string>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
