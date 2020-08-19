@@ -4,12 +4,12 @@ Dell XPS 9360
 
 Status : <br/>
 - Clover support 10.15.3 (Clover need to be update to latest version for support 10.15.4)<br/>
-- Opencore support 10.15.4 <br/>
+- Opencore support 10.15.4 <br/><br/>
 *Mandatory<br/>
-- set pre-alloc "setup_var 0x785 to 0x04" it will set pre-alloc to (128MB) match with BIOS<br/>
-- if you want go above 128MB you have to set framebuffer-stolenmem=00000006. <br/>
-- link <a href="https://www.elitemacx86.com/threads/guide-how-to-unlock-dvmt-pre-allocated-on-laptops.313/">Guide to set DVMT</a><br/>
-- link <a href="https://github.com/zearp/optihack/blob/master/text/CFGLock_DVMT.md">DVMT pre-alloc sizes for iGPU(Max 1GB pre-alloc)</a><br/>
+1.set pre-alloc "setup_var 0x785 to 0x04" it will set pre-alloc to (128MB) match with BIOS<br/>
+2.if you want go above 128MB you have to set framebuffer-stolenmem=00000006. <br/>
+3.link <a href="https://www.elitemacx86.com/threads/guide-how-to-unlock-dvmt-pre-allocated-on-laptops.313/">Guide to set DVMT</a><br/>
+4.link <a href="https://github.com/zearp/optihack/blob/master/text/CFGLock_DVMT.md">DVMT pre-alloc sizes for iGPU(Max 1GB pre-alloc)</a><br/>
 <br/>
 
 How to migrate from Clover to Opencore in easy way : <br/>
