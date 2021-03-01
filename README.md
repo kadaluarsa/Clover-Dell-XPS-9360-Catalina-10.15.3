@@ -1,10 +1,9 @@
-# OSX-Dell-XPS-9360-Catalina-10.15
+# OSX-Dell-XPS-9360-BigSur-LTS
 
 Dell XPS 9360
 
 Status : <br/>
-- Clover support 10.15.3 (Clover need to be update to latest version for support 10.15.4)<br/>
-- Opencore support 10.15.4 <br/><br/>
+- Opencore  <br/><br/>
 *Mandatory<br/>
 1.set pre-alloc "setup_var 0x785 to 0x04" it will set pre-alloc to (128MB) match with BIOS<br/>
 2.if you want go above 128MB you have to set framebuffer-stolenmem=00000006. <br/>
